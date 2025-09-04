@@ -5,7 +5,8 @@ description = "mlops"
 authors = ["Marcos Prochnow <marcosprochno@gmail.com>"]
 license = "MIT"
 readme = "README.md"
-packages = []
+package-mode = false
+packages = [{ include = "mlops" }]
 
 [tool.poetry.dependencies]
 python = ">=3.11"
